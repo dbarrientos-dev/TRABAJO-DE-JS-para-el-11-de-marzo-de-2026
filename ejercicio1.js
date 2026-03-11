@@ -1,5 +1,5 @@
 function calcularCostoPan(cantPanDulce, cantPanAlineado) {
-    let precioBlando = 300;
+    let precioDulce = 300;
     let precioAlineado = 500;
     let total = (cantPanBlando * precioDulce) + (cantPanAlineado * precioAlineado);
     return "El total en la panadería es: $" + total;
